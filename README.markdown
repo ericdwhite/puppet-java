@@ -8,7 +8,8 @@ This puppet mdoule was created in an effort to allow system administrators to de
 
 # Configuration #
 
-* Edit the ~/manifests/params.pp file and change the $java_base and $java_version to suit your needs. 
+* Edit the ~/manifests/params.pp file and change the $java_base, $java_version, $java_download to suit your needs. 
+** The $java_version should match the exploded version of the $java_dowload
 * When you download a new version of java place it into the ~/files/ directory. NOTE: You must also rename the .tar.gz file to simply jdk<version>.tar.gz
 
 # Author #
